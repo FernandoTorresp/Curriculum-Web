@@ -1,0 +1,218 @@
+@media (max-width:813px){
+    #portfolio .card{
+        font-size: 13px;
+    }
+    #portfolio-img{
+        transform: scale(0.9,0.9);
+    }
+}
+
+@media (max-width:789px){
+    #datpersonal h1{
+        font-size: 27px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #datpersonal p{
+        font-size: 16px
+    }
+    #foto-img{
+        width: 154px;
+        height: 205px;
+    }
+}
+
+@media (max-width:769px){
+    #menu ul{
+        width: 100%;
+        padding-left: 3%;
+    }
+    #menu ul li{
+        font-size: 18px;
+    }
+    #footer p{
+        font-size: 18px;
+    }
+    #portfolio .card{
+        font-size: 12px;
+    }
+}
+
+@media (max-width:670px){
+    #menu ul li a{
+        padding-bottom: 2%;
+    }
+    #portfolio{
+        display: block;
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+    }
+    #portfolio .card{
+        width: 66%;
+        margin: 10%;
+        font-size: 15px;
+        padding: 7%;
+    }
+    #portfolio-img{
+    transform: scale(1,1);
+    }
+}
+
+@media (max-width:662px){
+    #titulo{
+        font-size: 25px;
+    }
+    .control-menu{
+        display: block;
+        margin-top: 1.7%;
+        margin-left: 3%;
+        height: 70px;
+        background-color: transparent;
+        background-position: center center;
+    }
+    .close {
+        display: none;
+        filter: invert();
+    }
+    #menu ul{
+        height: 0;
+        width: 165px;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        transition: height 0.4s ease-in-out 0s, background-color 0.9s ease 0s;
+    }
+    #menu ul li{
+        margin: 0;
+        padding: 0;
+    }
+    #menu:target ul{
+        width: 165px;
+        height: 220px;
+        background: rgba(170, 155, 155, 0.5);
+        transition: height 0.4s ease-in-out 0s, background-color 0.9s ease 0s;
+    }
+    #menu:target .open{
+        display: none;
+    }
+    #menu:target .close{
+        display: block;
+    }
+    #menu ul li{
+        display: block;
+        height: 2em;
+        line-height: 2em;
+        margin: 0 1.3em;
+    }
+    #curriculumimg{
+        height: 250px;
+    }
+}
+
+@media (max-width:659px){
+    #datpersonal h1{
+        font-size: 24px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    #datpersonal p{
+        font-size: 14px
+    }
+
+    #foto-img{
+        width: 115px;
+        height: 154px;
+    }
+
+    #datpersonal-redes svg{
+        width: 35px;
+        height: 35px;
+    }
+
+}
+
+@media (max-width:522px){
+    #personal{
+        display: flow-root;
+        height: 730px;
+    }
+    #foto-img{
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    #datpersonal-redes{
+        clear: both;
+        position: relative;
+        display: inline-flex;
+        left: 2%;
+        text-align: left;
+        width: 50%;
+    }
+    #datpersonal-redes a{
+        margin-right: 8%;
+    }
+}
+
+@media (max-width:479px){
+    #titulo{
+        font-size: 20px;
+    }
+    #curriculumimg{
+        height: 200px;
+    }
+    #menu ul li{
+        font-size: 15px;
+    }
+    #titulo{
+        font-size: 15;
+    }
+    #footer p{
+        font-size: 15px;
+    }
+    #menu:target ul{
+        width: 135px;
+        height: 163px;
+        background: rgba(170, 155, 155, 0.5);
+        transition: height 0.4s ease-in-out 0s, background-color 0.9s ease 0s;
+    }}
+
+@media (max-width:418px){
+    #personal{
+        height: 640px;
+    }
+    #datpersonal h1{
+        font-size: 18px;
+    }
+    #datpersonal p{
+        font-size: 12px
+    }
+
+}
+
+@media (max-width:399px){
+    #titulo{
+        font-size: 17px;
+    }
+    #curriculumimg{
+        height: 160px;
+    }
+    #menu ul li{
+        font-size: 13px;
+    }
+    #titulo{
+        font-size: 13;
+    }
+    #footer p{
+        font-size: 13px;
+    }
+    #imgopen{
+        width: 30px;
+        height: 30px;
+    }
+    #imgclose{
+        width: 30px;
+        height: 30px;
+    }
+}

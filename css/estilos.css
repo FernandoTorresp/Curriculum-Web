@@ -1,0 +1,350 @@
+body{
+    background: url('../img/fondo2.jpg');
+    background-size: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    animation-name: personal;
+    animation-duration: 1500ms;
+    animation-iteration-count: 1;
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes personal {
+    from{
+        margin-top: -100%;
+    }
+    to{
+        margin-top: 0%;
+    }
+}
+
+#header{
+    display: flex;
+    height: 70px;
+    background-color: black;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.control-menu{
+    display: none;
+    color: white;
+}
+
+#menu{
+    float: left;
+    background: transparent;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+}
+
+#menu ul{
+    margin: 0 auto;
+}
+
+#menu ul li{
+    font-size: 22px;
+    display: inline-block;
+    margin: 0px 20px 0px 20px;
+    letter-spacing: 1px;
+}
+
+#menu ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 0 auto;
+    transition: all 200ms;
+}
+
+#menu ul li a:hover{
+    color: #37bcf9;
+    transform: scale(1.2,1.2);
+}
+
+#curriculum{
+    display: block;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+}
+
+.descarga{
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.descarga a{
+    text-decoration: none;
+    color: white;
+}
+
+#titulo{
+    font-size: 30px;
+}
+
+#curriculumimg{
+    display: block;
+    height: 300px;
+    filter: invert();
+    margin: 0px auto;
+    margin-top: 80px;
+}
+
+#personal{
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+    float: left;
+    color: white;
+    padding-bottom: 70px;
+}
+
+#foto-img{
+    width: 192px;
+    height: 256px;
+    margin-left: 15%;
+    margin-top: 19%;
+    border-radius: 20%;
+    transition: 1s;
+}
+
+#foto-img:hover{
+    width: 307px;
+    height: 409px;
+    transition-duration: 1s;
+    transition: 1s;
+}
+
+#datpersonal-titulo{
+    clear: both;
+    display: inline-flex;
+    vertical-align: top;
+    text-align: center;
+    font-size: 22px;
+    margin: 0 auto;
+    margin: 2%;
+    width: 20%;
+}
+
+#datpersonal{
+    clear: both;
+    margin-left: 7%;
+    margin-top: 1.5%;
+    width: 70%;
+    padding-right: 15%;
+}
+
+#datpersonal h1{
+    font-size: 31px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#datpersonal p{
+    font-size: 19px
+}
+
+#datpersonal-redes{
+    position: absolute;
+    left: 86%;
+    text-align: right;
+    width: 6%;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+#datpersonal-redes a{
+    padding-bottom: 15%;
+}
+
+#datpersonal-redes svg{
+    width: 40px;
+    height: 40px;
+    padding-bottom: 30%;
+}
+
+#datpersonal-redes-a:hover{
+    fill: #78848a;
+    transform: scale(1.2,1.2);
+}
+
+#cont-img{
+    display: inline-flex;
+    width: 65px;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+#cont-txt{
+    display: inline-flex;
+    margin: 0 auto;
+    width: 280px;
+}
+
+#cont-nivel{
+    display: inline-flex;
+    margin: 0 auto;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+#cont-nivel img{
+    margin: 10px;
+    margin: 0 auto;
+}
+
+#conocim{
+    line-height: 40px;
+    margin: 0 auto;
+    height: 40px;
+    margin: 5px;
+}
+
+#conocim-img{
+    vertical-align: middle;
+    justify-self: center;
+    align-items: center;
+}
+
+#portfolio{
+    display: flex;
+    margin: 0 auto;
+    float: left;
+    width: 92%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+#portfolio .card{
+    width: 28%;
+    height: 320px;
+    background-color: darkslategray;
+    padding: 2%;
+    margin-right: 4%;
+    margin-top: 5%;
+    text-align: justify;
+    font-size: 15px;
+    border-radius: 10%;
+    text-decoration: none;
+}
+
+#portfolio .card:last-child{
+    margin-right: 0;
+}
+
+#portfolio-img{
+    margin: 0 auto;
+    clear: both;
+}
+
+#portfolio .card h3{
+    display: block;
+    margin: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#portfolio .card a:link{
+    margin-top: 1.5%;
+    text-decoration: none;
+    color: darkgrey;
+}
+
+#portfolio .card a:link:hover{
+    font-size: 18px;
+    color: #37bcf9;
+}
+
+#contacto{
+    float: left;
+    clear: both;
+    margin-left: 7%;
+    margin-top: 1.5%;
+    width: 50%;
+    padding-right: 15%;
+}
+
+#contacto{
+    margin: 0 auto;
+    clear: both;
+}
+
+#contactotel{
+    height: 55px;
+    width: 70%;
+    color: white;
+    margin: 3%;
+    margin-top: 10%;
+}
+
+#contactoteli{
+    float: left;
+    filter: invert();
+    display: block;
+    margin: 0 auto;
+    width: 75px;
+    text-align: center;
+    margin-right: 3%;
+}
+
+#contactoteld{
+    display: inline-flexbox;
+    margin: 0 auto;
+    line-height: 55px;
+    color: white;
+}
+
+#contactoemail{
+    height: 55px;
+    width: 70%;
+    color: white;
+    margin: 3%;
+    margin-top: 10%;
+}
+
+#contactoemaili{
+    float: left;
+    filter: invert();
+    display: block;
+    margin: 0 auto;
+    width: 75px;
+    text-align: center;
+    padding-top: 4px;
+    margin-right: 3%;
+}
+
+#contactoemaild{
+    display: inline-flexbox;
+    margin: 0 auto;
+    line-height: 55px;
+    color: white;
+}
+
+#footer{
+    margin: 0 auto;
+    padding: 0;
+    float: left;
+    width: 100%;
+    height: 70px;
+    background: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+#footer p{
+    display: block;
+    color: white;
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 70px;
+    margin: 0px 20px 0px 20px;
+}
